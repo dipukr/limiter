@@ -16,7 +16,7 @@ public class SlidingWindowCounter implements Limiter {
 	
 	@Override
 	public boolean isAllowed(String userId) {
-		
+		System.out.println(userData);
 		boolean isAllowed = false;
 		return isAllowed;
 	}

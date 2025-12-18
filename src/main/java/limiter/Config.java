@@ -8,7 +8,7 @@ public class Config {
 
 	@Bean
 	public Limiter limiter() {
-		return new LeakyBucket(5, 2);
+		return new TokenBucket(5, 2);
 	}
 
 	@Bean

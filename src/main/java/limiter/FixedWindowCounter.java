@@ -16,7 +16,7 @@ public class FixedWindowCounter implements Limiter {
 	@Override
 	public boolean isAllowed(String userId) {
 		boolean isAllowed = false;
-		
+		System.out.println(userData);
 		return isAllowed;
 	}
 }

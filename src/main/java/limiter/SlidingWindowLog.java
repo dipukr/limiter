@@ -12,10 +12,11 @@ public class SlidingWindowLog implements Limiter {
 	public SlidingWindowLog() {
 		
 	}
+
 	
 	@Override
 	public boolean isAllowed(String userId) {
-		
+		System.out.println(userData);
 		boolean isAllowed = false;
 		return isAllowed;
 	}

@@ -1,9 +1,9 @@
 package limiter;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
+//import org.springframework.stereotype.Component;
 
-@Component
+//@Component
 public class RateLimiter {
 
 	@Autowired
